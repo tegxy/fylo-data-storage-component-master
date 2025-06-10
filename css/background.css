@@ -1,0 +1,11 @@
+#backgroundImage {
+  background-image: url(images/bg-pattern-top-desktop.svg);
+  background-position: left;
+  background-size: cover;
+  height: 40%;
+  width: 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}/*# sourceMappingURL=background.css.map */

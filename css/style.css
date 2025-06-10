@@ -24,4 +24,11 @@
   border-width: 70px 0 0 40px;
   border-style: solid;
   border-color: hsl(332, 45%, 44%) transparent transparent transparent;
+}
+
+#backgroundImage {
+  position: relative;
+  background-image: url("../images/bg-desktop.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */
