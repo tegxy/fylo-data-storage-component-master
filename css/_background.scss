@@ -1,7 +1,11 @@
 #backgroundImage {
 	position: relative;
 	background-image: url("../images/bg-desktop.png");
-	background-size: cover;
-
+	background-size: auto 50%;
+	background-position: bottom;
+	background-color: hsl(229, 57%, 11%);
+	height: 100vh;
 	background-repeat: no-repeat;
+	display: grid;
+	place-content: center;
 }
