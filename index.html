@@ -27,12 +27,11 @@
 	<body>
 		<div id="backgroundImage">
 			<main>
-				<section>
-					<div id="logo">
+				<section id="logo-section">
+					<div class="logo">
 						<img class="logo-image" src="images/logo.svg" alt="image of logo" />
-						<h1>Fylo</h1>
 					</div>
-					<div id="icons">
+					<div class="icons">
 						<img
 							alt="image of document icon"
 							class="icon-image"
@@ -50,11 +49,14 @@
 						/>
 					</div>
 				</section>
-				<section>
-					<div>185 GB Left</div>
-					<div>
+				<section id="section">
+					<div class="chat-box">185 GB Left</div>
+					<div class="data-section">
 						<div>You’ve used 815 GB of your storage</div>
-						<div id="bar"></div>
+						<div id="bar">
+							<div class="bar"></div>
+							<div class="ball"></div>
+						</div>
 						<div>
 							<p>0 GB</p>
 							<p>1000 GB</p>
@@ -62,10 +64,6 @@
 					</div>
 				</section>
 			</main>
-		</div>
-
-		<div class="chatBox">
-			<p>Testing chat box</p>
 		</div>
 
 		<div class="attribution">
