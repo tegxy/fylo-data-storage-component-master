@@ -2,7 +2,7 @@ main {
 	display: flex;
 	justify-content: space-between;
 	width: 40rem;
-	height: 10rem;
+	height: 12rem;
 	background-color: pink;
 }
 
@@ -25,4 +25,36 @@ main {
 		padding: 1rem;
 		border-radius: 1rem;
 	}
+}
+
+#section {
+	width: 50%;
+}
+
+.chat-box {
+	max-width: 60%;
+	position: relative;
+	padding: 10px 15px;
+	margin: 10px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 15px;
+	border-bottom-right-radius: 0;
+	top: 1rem;
+	left: 6rem;
+}
+.chat-box::after {
+	content: "";
+	position: absolute;
+	bottom: -50px;
+	right: 0px;
+	border-width: 50px 0 0 40px;
+	border-style: solid;
+	border-color: hsl(0, 0%, 100%) transparent transparent transparent;
+}
+
+.data-section {
+	background-color: hsl(228, 56%, 26%);
+	border-radius: 1rem;
+	color: hsl(0, 0%, 100%);
+	padding: 1.5rem;
 }
