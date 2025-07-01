@@ -3,6 +3,12 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="css/style.css" />
 
 		<link
@@ -50,14 +56,20 @@
 					</div>
 				</section>
 				<section id="section">
-					<div class="chat-box">185 GB Left</div>
+					<div class="chat-box">
+						<span style="font-weight: bold; font-size: 1.5rem" ;>185</span>
+						<span style="font-size: 0.6rem">GB Left</span>
+					</div>
 					<div class="data-section">
-						<div>You’ve used 815 GB of your storage</div>
+						<div>
+							You’ve used <span style="font-weight: bold">815 GB</span> of your
+							storage
+						</div>
 						<div id="bar">
 							<div class="bar"></div>
 							<div class="ball"></div>
 						</div>
-						<div>
+						<div id="bar-range">
 							<p>0 GB</p>
 							<p>1000 GB</p>
 						</div>

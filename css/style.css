@@ -1,3 +1,7 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -87,9 +91,8 @@ select {
 main {
   display: flex;
   justify-content: space-between;
-  width: 40rem;
+  width: 50rem;
   height: 12rem;
-  background-color: pink;
 }
 
 #logo-section {
@@ -116,23 +119,23 @@ main {
 }
 
 .chat-box {
-  max-width: 60%;
+  max-width: 27%;
   position: relative;
   padding: 10px 15px;
   margin: 10px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
   border-bottom-right-radius: 0;
-  top: 1rem;
-  left: 6rem;
+  top: 1.8rem;
+  left: 17rem;
 }
 
 .chat-box::after {
   content: "";
   position: absolute;
-  bottom: -50px;
+  bottom: -15px;
   right: 0px;
-  border-width: 50px 0 0 40px;
+  border-width: 15px 0 0 15px;
   border-style: solid;
   border-color: hsl(0, 0%, 100%) transparent transparent transparent;
 }
@@ -152,13 +155,12 @@ main {
   background-color: hsl(229, 57%, 11%);
   border-radius: 0.6rem;
   overflow: hidden;
-  margin: 3rem auto;
 }
 
 .bar {
   height: 100%;
   width: 80%;
-  background: linear-gradient(to right, hsl(313, 96%, 81%), hsl(313, 99%, 30%));
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
   transition: width 0.3s ease-in-out;
 }
 
@@ -170,8 +172,13 @@ main {
   width: 1.2rem;
   height: 1.2rem;
   background-color: white;
-  border: solid hsl(313, 99%, 30%);
+  border: solid hsl(335, 100%, 65%);
   border-radius: 50%;
+}
+
+#bar-range {
+  display: flex;
+  justify-content: space-between;
 }
 
 .attribution {

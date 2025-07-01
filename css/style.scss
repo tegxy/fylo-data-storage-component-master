@@ -1,7 +1,11 @@
+body {
+	font-family: "Raleway", sans-serif;
+}
 @import "_reset.scss";
 @import "_background.scss";
 @import "_main.scss";
 @import "_bar.scss";
+@import "_bar-range.scss";
 
 .attribution {
 	font-size: 11px;

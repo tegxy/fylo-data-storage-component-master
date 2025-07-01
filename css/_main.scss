@@ -1,9 +1,8 @@
 main {
 	display: flex;
 	justify-content: space-between;
-	width: 40rem;
+	width: 50rem;
 	height: 12rem;
-	background-color: pink;
 }
 
 #logo-section {
@@ -32,22 +31,22 @@ main {
 }
 
 .chat-box {
-	max-width: 60%;
+	max-width: 27%;
 	position: relative;
 	padding: 10px 15px;
 	margin: 10px;
 	background-color: hsl(0, 0%, 100%);
 	border-radius: 15px;
 	border-bottom-right-radius: 0;
-	top: 1rem;
-	left: 6rem;
+	top: 1.8rem;
+	left: 17rem;
 }
 .chat-box::after {
 	content: "";
 	position: absolute;
-	bottom: -50px;
+	bottom: -15px;
 	right: 0px;
-	border-width: 50px 0 0 40px;
+	border-width: 15px 0 0 15px;
 	border-style: solid;
 	border-color: hsl(0, 0%, 100%) transparent transparent transparent;
 }
